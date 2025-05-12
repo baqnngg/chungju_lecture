@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
       ),
       routes: {
         '/': (context) => const HomePage(),
-        'todo-local': (context) => const TodoLocalPage()
+        '/todo-local': (context) => const TodoLocalPage()
       }
     );
   }
